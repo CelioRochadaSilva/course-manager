@@ -6,12 +6,12 @@ import {Course} from './course';
 })
 export class CourseListComponent implements OnInit{
     courses: Course[] = [];
-    ngOnInit(): void{
+    ngOnInit():void{
        this.courses = [
            {
         id: 1,
         name: 'Angular: Fomrs',
-        imageUrl: '',
+        imageUrl: '/assets/images/forms.png',
         price: 99.99,
         code: 'xp98834',
         duration: 120,
@@ -20,8 +20,8 @@ export class CourseListComponent implements OnInit{
            },
            {
             id: 2,
-            name: 'Bootstrap: http',
-            imageUrl: '',
+            name: 'Bootstrap: HTTP',
+            imageUrl: '/assets/images/http.png',
             price: 69.79,
             code: 'ap18334',
             duration: 130,
