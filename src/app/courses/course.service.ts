@@ -7,13 +7,13 @@ export class CourseService{
     retrieveAll(): Course[] {
         return COURSES;
     }
-
+ // dados da tabela//
 }
 var COURSES: Course[] = [
     {
         id: 1,
         name: 'Angular: CLI',
-        releaseDate: 'Março , 02 de 2021',
+        releaseDate: 'Março , 02 , 2021',
         description: 'Neste curso, os alunos irão obter um grande conhecimento nos principais recursos do CLI.',
         duration: 120,
         code: 'XLF-1212',
@@ -24,7 +24,7 @@ var COURSES: Course[] = [
     {
         id: 2,
         name: 'Angular: Forms',
-        releaseDate: 'Março , 01 de 2021',
+        releaseDate: 'Março , 01 , 2021',
         description: 'Neste curso, os alunos irão obter um conhecimento aprofundado sobre os recursos disponíveis no módulo de Forms.',
         duration: 80,
         code: 'DWQ-3412',
@@ -35,7 +35,7 @@ var COURSES: Course[] = [
     {
         id: 3,
         name: 'Angular: HTTP',
-        releaseDate: 'November 8, 2019',
+        releaseDate: 'November, 8 , 2020',
         description: 'Neste curso, os alunos irão obter um conhecimento aprofundado sobre os recursos disponíveis no módulo de HTTP.',
         duration: 80,
         code: 'QPL-0913',
@@ -46,7 +46,7 @@ var COURSES: Course[] = [
     {
         id: 4,
         name: 'Angular: Router',
-        releaseDate: 'November 16, 2019',
+        releaseDate: 'November, 16 , 2020',
         description: 'Neste curso, os alunos irão obter um conhecimento aprofundado sobre os recursos disponíveis no módulo de Router.',
         duration: 80,
         code: 'OHP-1095',
@@ -57,7 +57,7 @@ var COURSES: Course[] = [
     {
         id: 5,
         name: 'Angular: Animations',
-        releaseDate: 'November 25, 2019',
+        releaseDate: 'November, 25 , 2020',
         description: 'Neste curso, os alunos irão obter um conhecimento aprofundado sobre os recursos disponíveis sobre Animation.',
         duration: 80,
         code: 'PWY-9381',
