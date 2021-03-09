@@ -31,11 +31,11 @@ import { CourseInfoComponent } from './courses/course-info.component';
       }, 
       
       {
-        path:'courses/info/:id', component : CourseInfoComponent 
+        path:'courses/info/:id', component:CourseInfoComponent 
         //redirecionanto: 2ª rota
       },
       {
-        path:'' , redirectTo:'courses' , pathMatch: 'full' // 3ª rota: base do app//
+        path:'' , redirectTo:'courses' , pathMatch:'full' // 3ª rota: base do app//
       }, 
       
       {

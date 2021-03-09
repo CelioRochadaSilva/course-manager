@@ -1,3 +1,4 @@
+import { findLast } from '@angular/compiler/src/directive_resolver';
 import { Injectable } from '@angular/core';
 import {Course} from './course';
 @Injectable({ // torma a class e sua dependencia visiveis para angula para ser executa n app//
@@ -7,7 +8,16 @@ export class CourseService{
     retrieveAll(): Course[] {
         return COURSES;
     }
+    retrieveById(id: number): Course { 
+        return COURSES.find((courseIterator:Course) => courseIterator.id === id);  // passa id e retorma metodo
  // dados da tabela//
+    }
+    save(course:Course): void{
+        if(course.id){
+            const index = COURSES.findIndex((courseIterator:Course) => courseIterator.id === course.id);
+            COURSES[index] = course;
+        }
+    }
 }
 var COURSES: Course[] = [
     {
