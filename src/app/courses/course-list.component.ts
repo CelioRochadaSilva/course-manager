@@ -13,11 +13,23 @@ export class CourseListComponent implements OnInit{
     _filterBy: string;
     
     constructor(private courseService: CourseService) { }
-    ngOnInit():void{
-       this._courses = this.courseService.retrieveAll();
+   
+    retrieveAll(): void {
+       this.retrieveAll();
 
-       this.filteredCourses = this._courses;
     }
+
+    ngOnInit():void{
+        this.courseService.retrieveAll().subscribe({
+            next: courses => {
+             this._courses = courses;
+             this.filteredCourses = this._courses;
+            }, 
+            error: err => console.log('Error', err) 
+        })
+        
+     }
+
     set filter(value: string) { // solicitar e comparar
         this._filterBy = value; 
         
