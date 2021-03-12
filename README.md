@@ -1,8 +1,8 @@
 # CourseManager
-# Tela formulario
+# Tela formulário: adição e remoção
 ![formulario](https://github.com/CelioRochadaSilva/course-manager/blob/main/src/app/courses/img/telaform.png)
 
-# Tela de adição , alterações e remoção
+# Tela de alterações: formulário
 ![formularioedite](https://github.com/CelioRochadaSilva/course-manager/blob/main/src/app/courses/img/telaformedit.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
