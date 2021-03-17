@@ -1,4 +1,4 @@
-# CourseManager
+# Course Manager
 # Tela formulário: informações , adição e remoção
 ![formulario](https://github.com/CelioRochadaSilva/course-manager/blob/main/src/app/courses/img/telaform.png)
 
